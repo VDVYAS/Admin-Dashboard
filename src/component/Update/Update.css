@@ -1,0 +1,37 @@
+.Updates {
+    background-color: white;
+    border-radius: 1rem;
+    width: 77%;
+    margin-top: -3px;
+}
+
+.update {
+    display: flex;
+    gap: 0.5rem;
+    padding: 2px;
+}
+
+.update>img {
+    width: 30px;
+    height: 30px;
+    padding-top: 21px;
+    padding-left: 9px;
+}
+
+.noti {
+    flex-direction: column;
+}
+
+.noti>div>.name {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.noti>div>.decs {
+    font-size: 11px;
+    font-weight: 200px;
+}
+
+.noti>div>.time {
+    font-size: 8px;
+}

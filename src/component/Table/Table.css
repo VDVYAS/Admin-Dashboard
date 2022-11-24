@@ -1,0 +1,37 @@
+            .Table {
+                margin-top: -6px;
+            }
+            
+            .MuiTableRow-root.MuiTableRow-head>* {
+                font-weight: bold;
+                padding: 10px;
+            }
+            
+            .MuiTableRow-root.MuiTableRow-root>* {
+                padding: 10px;
+            }
+            
+            .status {
+                padding: 4px;
+                border-radius: 0.5rem;
+            }
+            
+            .Details {
+                color: rgb(112, 201, 236) !important;
+            }
+            
+            @media screen and (max-width:1100px) {
+                .Table {
+                    width: 150%;
+                }
+            }
+            
+            @media screen and (max-width:768px) {
+                .Table {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 18rem;
+                }
+            }
